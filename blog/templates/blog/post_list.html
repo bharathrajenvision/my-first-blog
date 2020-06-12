@@ -17,8 +17,8 @@
             {% for post in posts %}
                 <div class="post">
                     <div class="date">
-                        <p>Published On: 11 June 2020 , 4:54 pm </p>
-                        <p>Author : Bharath</p>
+                        <p> Published On : {{ post.published_date }}</p>
+                        <p> Author : {{ post.author }}</p>
                     </div>
                     <h2><a href="">{{ post.title }}</a></h2>
                     <p>{{ post.text|linebreaksbr }}</p>
@@ -27,9 +27,9 @@
         </div>
     </div>
 </div>
-	<div>
-    	 <p>Published On: 11 June 2020 , 4:54 pm </p>
-    	 <p>Author : Bharath Raj</p>
-    </div>
+<div>
+    <p> Published On : June 12, 2020, 2:36 p.m.</p>
+    <p> Author : bharath</p>
+</div>
 </body>
 </html>
