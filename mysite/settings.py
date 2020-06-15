@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog.apps.BlogConfig',
 ]
 
 MIDDLEWARE = [
@@ -77,7 +78,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'default',
+        'NAME': 'blog',
         'USER': 'brr945',
         'PASSWORD': 'W0rk1ngTressure*',
         'HOST': 'brr945.mysql.pythonanywhere-services.com',   # Or an IP Address that your DB is hosted on
