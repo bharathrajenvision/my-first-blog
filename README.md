@@ -73,6 +73,9 @@ Add additional notes about how to deploy this on a live system
 
 I used GitHub for versioning. (https://github.com/bharathrajenvision/my-first-blog). 
 
+I Published and hosted my site on :
+http://brr945.pythonanywhere.com/
+
 ## Authors
 
 * **bharath** - [University Of Birmingham](https://github.com/bharathrajenvision/my-first-blog)
